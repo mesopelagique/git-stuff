@@ -6,6 +6,9 @@ First of all, one git project by 4d project/component
 
 I recommand to use a software like sourcetree https://www.sourcetreeapp.com
 
+If you already know how to use git, and want to know just how to present your project on github go to [github section](#github)
+
+
 ## Create a git project
 
 ### using command line
@@ -94,6 +97,8 @@ git commit -c "Initial commit"
 
 #### using sourcetree
 
+https://fr.coursera.org/lecture/version-control-with-git/command-line-commit-to-a-local-repository-zBlSu
+
 ### push
 
 #### using command line 
@@ -123,7 +128,7 @@ Maybe you create documentation for each public methods in Documentation folder
 To be able to reach it easily, provide in your README links to some of them using markdown link
 
 ```markdown
-MyMethod(Documents/MyMethod.md)
+[MyMethod](Documents/MyMethod.md)
 ```
 
 ## Create a github pages
