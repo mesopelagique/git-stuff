@@ -150,3 +150,6 @@ Go to https://www.github.com/YourUserName/YourProject/releases
 
 You could attach binary to a release ie. You can attach a 4dz file or any thing you want.
 Providing binaries help to integrate your component quickly (Do not forget to describe in readme how to install it)
+
+Edit you release and drag and drop the file
+
