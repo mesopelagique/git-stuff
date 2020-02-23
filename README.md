@@ -104,20 +104,23 @@ MyMethod(Documents/MyMethod.md)
 
 ## Create a github pages
 
-Go to settings, general, and choose to active github pages.
-The link to your github page will be written. (yourname.gitpage.io/yourproject)
+Example : https://mesopelagique.github.io/formula_compose/
 
-You can choose the root, and your README will be the first page. (If you not want you could 
+Go to Settings, go down to Github Pages section and choose to active github pages.
+
+You can choose the root, and your README will be the first page. (If you not want you could also select docs/)
+
+The link to your github page will be written but if not the link is https://yourname.gitpage.io/yourproject
 
 #### Customize
 
-You can choose a theme just near where you activate the page.
+You can choose a theme just in the same section where you activate the page.
 
 The theme will be used at next site generation (you can edit readme to force publish a new website)
 
 #### Provide the link
 
-Then you copy the page link and edit project description. Here at the right you can paste the link and save.
+Copy the page link and edit project description. Here at the right you can paste the link and save.
 
 ## Release version
 
