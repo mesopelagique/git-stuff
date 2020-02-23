@@ -10,7 +10,9 @@ First of all, one git project by 4d project/component
 
 Using a terminal go to your project root and type
 
+```
 git init .
+```
 
 This will create a .git folder (so if there is alread a .git folder, nothing to do)
 
@@ -33,11 +35,15 @@ Github will provide a list of command line to use. Keep the page open.
 Again go to your project root using a terminal and type.
 You could see this command line on github page
 
+```
 git remote add 
+```
 
 to know if alread attached you can type 
 
+```
 git remote -v 
+```
 
 ### Using sourcetree
 
@@ -52,25 +58,30 @@ First of all your files must be commited.
 
 ### select the files to commit
 
-Using command line 
+Using command line to add all
+```
 git add .
+```
 
 On sourcetree just select it
 
-#### Ignore some files 
+#### Ignore some files
 
 Do not push DerivedData, and userPreferences
-Use .gitignore mecanisum
+Use .gitignore mecanism
 
 On sourcetree right click on file, choose to ignore a file, and select the rules according yo your need
 
-or manually create a .gitignore files in project root
+or manually create a .gitignore files in project root, or edit the global file
+or use command line
 
 ### commit
 
 #### command line
 
+```
 git commit -c "Initial commit" 
+```
 
 #### using sourcetree
 
@@ -78,7 +89,9 @@ git commit -c "Initial commit"
 
 #### using command line 
 
+```
 git push origin
+```
 
 #### using sourcetree
 
@@ -100,7 +113,9 @@ Maybe you create documentation for each public method in Documentation folder
 
 To be able to reach it easily, provide in your README links to some of them using markdown link
 
+```markdown
 MyMethod(Documents/MyMethod.md)
+```
 
 ## Create a github pages
 
