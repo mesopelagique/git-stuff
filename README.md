@@ -137,19 +137,4 @@ To be able to reach it easily, provide in your README links to some of them usin
 
 ## Release version
 
-Maybe you already know git tag. Tag allow to have a time point in your git comit history. You could create a tag with a version number (following SemVer)
-
-Releases throught github help people to know about new stuff in your project and they are associated to a tag.
-Someone that follow your project could register to notification and even receive mail with your release description.
-
-Go to https://www.github.com/YourUserName/YourProject/releases
-
-### Provide binary
-
-You could attach binary to a release ie. You can attach a 4dz file or any thing you want.
-Providing binaries help to integrate your component quickly (Do not forget to describe in readme how to install it)
-
-Edit you release and drag and drop the file
-
-You can provide a link to latest release by removing release name/version and add latest before "download" in download link
-
+[Release](Release.md)
