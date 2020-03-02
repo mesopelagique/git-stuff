@@ -112,23 +112,32 @@ git push origin
 press push button
 when commiting you can also check the box : "push change immediatly to", and make commit push one operation
 
-# github
+# Github
 
-## Have a good readme
+## Have a good readme!
 
-As you must know readme could be written using markdown
+As you must know readme could be written using markdown.
 
 You can be inspired from this template or any other project readme
 https://gist.github.com/mesopelagique/4f9ca84088fbfcf7903ffb494e784a36
 
-### Link to other documentation
+You must provide information about your project.
+- how to use it (Getting Started, Usage)
+- how to install/integrate/deploy it
 
-Maybe you create documentation for each public methods in Documentation folder
+You could add
+- information about license, acknowledgments, authors
+- how to contribute to your project (a link to a file CONTRIBUTING.md )
 
-To be able to reach it easily, provide in your README links to some of them using markdown link
+### Link to others documentations files
+
+Maybe you create documentation for each public methods or class in Documentation folder
+
+To be able to reach it easily, provide links in your README to some of them using markdown link
 
 ```markdown
-[MyMethod](Documents/MyMethod.md)
+[MyMethod](Documentation/Methods/MyMethod.md)
+[MyClass](Documentation/Classes/MyClass.md)
 ```
 
 ## Create a github pages
