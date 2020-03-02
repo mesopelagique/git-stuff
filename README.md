@@ -171,7 +171,7 @@ To display top language you could do like that
 [![language-top][code-top]][code-url]
 ```
 
-and add markdown bottom add your links
+and add at markdown bottom your links
 ```markdown
 [code-top]: https://img.shields.io/github/languages/top/YourName/YourProject.svg
 [code-url]: https://developer.4d.com/
