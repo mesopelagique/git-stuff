@@ -123,8 +123,12 @@ You will find on following link good pratices of writing such a file - with a fe
 
 ## Create a github pages
 
+Generate a website for your project easily.
+
 [GitHub Pages](GitHubPages.md)
 
 ## Release version
+
+Notify followers about new stuff and bug fixes. Provide binaries.
 
 [Release](Release.md)
