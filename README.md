@@ -8,12 +8,11 @@ I recommand to use a software like sourcetree https://www.sourcetreeapp.com
 
 If you already know how to use git, and want to know just how to present your project on github go to [github section](#github)
 
-
 ## Create a git project
 
 ### using command line
 
-Using a terminal go to your project root and type
+On mac and linux sing a terminal go to your 4d project root folder and write
 
 ```
 git init .
@@ -23,44 +22,9 @@ This will create a .git folder (so if there is alread a .git folder, nothing to 
 
 ### using a soft like sourcetree (recommanded)
 
-Just drag and drop the project folder to sourcetree. It will ask you to create a github project
+Just drag and drop the project folder to sourcetree. It will ask you to create a github project.
 
-## Create the github project
-
-Log into github, Click the Plus button near the avatar (top right) and choose new repository
-
-Choose a relevant name and validate.
-
-Github will provide a list of command line to use. Keep the page open.
-
-## Link your local git project to github project
-
-### Using command line
-
-Again go to your project root using a terminal and type.
-You could see this command line on github page
-
-```
-$ git remote add origin https://github.com/user/repo.git
-```
-https://help.github.com/en/github/using-git/adding-a-remote
-
-to know if alread attached to a remote you can type 
-
-```
-$ git remote -v 
-```
-
-### Using sourcetree
-
-Go to project setting, choose remote tab, add a new remote
-choose name origin (or github) and paste the remote url (the github url with .git)
-
-https://confluence.atlassian.com/sourcetreekb/changing-remote-repository-path-on-sourcetree-using-git-or-mercurial-785616227.html
-
-## Push your project
-
-It's time to push your local code to github
+## Commit your project
 
 First of all your files must be commited.
 
@@ -92,27 +56,73 @@ https://www.atlassian.com/git/tutorials/saving-changes/gitignore
 provide a commit message and its done
 
 ```
-git commit -c "Initial commit" 
+git commit -c "Initial commit message" 
 ```
 
 #### using sourcetree
 
 https://fr.coursera.org/lecture/version-control-with-git/command-line-commit-to-a-local-repository-zBlSu
 
-### push
+# Github
 
-#### using command line 
+## Create the github project
+
+Log into your github account or create one
+
+Click the Plus button near the avatar (top right) and choose new repository.
+
+Choose a relevant name and validate.
+
+Github will provide a list of command line to use. Keep the page open it could help later.
+
+### Create or not the README.md file?
+
+If you have already a project on your disk, keep empty the remote project. You will push a readme file by yourself or create one online after first push.
+
+# Link Git and GitHub
+
+## Link your local git project to github project
+
+### Using command line
+
+Again go to your project root using a terminal and type.
+You could see this command line on github page
+
+```
+$ git remote add origin https://github.com/user/repo.git
+```
+https://help.github.com/en/github/using-git/adding-a-remote
+
+to know if your project is already attached to a remote git server you can type 
+
+```
+$ git remote -v 
+```
+
+ps: origin is just a shortcut name for the remote url you use. You could do `git remote add github https://...` if you want. But remember this shortcut name for later to push files for instance
+
+### Using sourcetree
+
+Go to project setting, choose remote tab, add a new remote
+choose name origin (or github) and paste the remote url (the github url with .git)
+
+https://confluence.atlassian.com/sourcetreekb/changing-remote-repository-path-on-sourcetree-using-git-or-mercurial-785616227.html
+
+## push your files on github
+
+If you have commited already locally your files
+
+### using command line 
 
 ```
 git push origin
 ```
 
-#### using sourcetree
+### using sourcetree
 
-press push button
+Just press push button
+
 when commiting you can also check the box : "push change immediatly to", and make commit push one operation
-
-# Github
 
 ## Have a good readme!
 
