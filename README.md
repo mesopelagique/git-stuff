@@ -37,27 +37,33 @@ $ git add .
 
 On sourcetree just select it
 
-#### Ignore some files
+#### Do not push all files!!: Ignore some files
 
-Do not push DerivedData, and userPreferences
-Use .gitignore mecanism
+Do not push compiled result and your user preferences on git ie. DerivedData folder and userPreferences
+Use .gitignore mecanism!
 
 On sourcetree right click on file, choose to ignore a file, and select the rules according yo your need
 
-or manually create a .gitignore files in project root, or edit the global file
-or use command line
+or manually create a .gitignore files in project root, or edit the global file($HOME/.gitignore_global)
+or use the command line
 
-https://www.atlassian.com/git/tutorials/saving-changes/gitignore
+[https://www.atlassian.com/git/tutorials/saving-changes/gitignore](https://www.atlassian.com/git/tutorials/saving-changes/gitignore)
+
+##### exemple of file
+
+[https://github.com/mesopelagique/formula_compose/blob/master/.gitignore](https://github.com/mesopelagique/formula_compose/blob/master/.gitignore)
 
 ### commit
 
 #### command line
 
-provide a commit message and its done
+provide a good commit message (explain what you have done) and its done
 
 ```
 git commit -c "Initial commit message" 
 ```
+
+https://git-scm.com/docs/git-commit
 
 #### using sourcetree
 
@@ -69,7 +75,7 @@ https://fr.coursera.org/lecture/version-control-with-git/command-line-commit-to-
 
 Log into your github account or create one
 
-Click the Plus button near the avatar (top right) and choose new repository. (or click [here](https://github.com/new))
+Click the "Plus" button near the avatar (top right) and choose new repository. (or click [here](https://github.com/new))
 
 Choose a relevant name and validate.
 
@@ -129,6 +135,8 @@ If you have commited already locally your files
 ```
 git push origin
 ```
+
+sometimes there is errors because the branch is not attached to remove one (called upstream one)
 
 ### using sourcetree
 
