@@ -2,7 +2,7 @@
 
 ## Exemple of 4d component page
 
-https://mesopelagique.github.io/formula_compose/
+[https://mesopelagique.github.io/formula_compose/](https://mesopelagique.github.io/formula_compose/)
 
 ## How to activate github page to your project 
 
@@ -20,7 +20,7 @@ Button "Choose Theme"
 
 The theme will be used at next site generation (you can edit readme to force publish a new website)
 
-https://help.github.com/en/github/working-with-github-pages/adding-a-theme-to-your-github-pages-site-with-the-theme-chooser
+[https://help.github.com/en/github/working-with-github-pages/adding-a-theme-to-your-github-pages-site-with-the-theme-chooser](https://help.github.com/en/github/working-with-github-pages/adding-a-theme-to-your-github-pages-site-with-the-theme-chooser)
 
 The theme choice is limited.
 
@@ -35,6 +35,6 @@ Here at the right you can paste the link and save.
 
 ## Links
 
-- https://pages.github.com/
-- https://help.github.com/en/github/working-with-github-pages/about-github-pages
-- https://help.github.com/en/github/working-with-github-pages
+- [https://pages.github.com/](https://pages.github.com/)
+- [https://help.github.com/en/github/working-with-github-pages/about-github-pages](https://help.github.com/en/github/working-with-github-pages/about-github-pages)
+- [https://help.github.com/en/github/working-with-github-pages](https://help.github.com/en/github/working-with-github-pages)
