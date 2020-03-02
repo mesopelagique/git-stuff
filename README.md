@@ -69,11 +69,11 @@ https://fr.coursera.org/lecture/version-control-with-git/command-line-commit-to-
 
 Log into your github account or create one
 
-Click the Plus button near the avatar (top right) and choose new repository.
+Click the Plus button near the avatar (top right) and choose new repository. (or click [here](https://github.com/new))
 
 Choose a relevant name and validate.
 
-Github will provide a list of command line to use. Keep the page open it could help later.
+Github will provide a list of command lines to use. Keep the page open it could help later.
 
 ### Create or not the README.md file?
 
@@ -86,12 +86,16 @@ If you have already a project on your disk, keep empty the remote project. You w
 ### Using command line
 
 Again go to your project root using a terminal and type.
-You could see this command line on github page
+You could see this command line on github page and we will use it
 
 ```
 $ git remote add origin https://github.com/user/repo.git
 ```
 https://help.github.com/en/github/using-git/adding-a-remote
+
+ps: origin is just a shortcut name for the remote url you use. You could do `git remote add github https://...` if you want. But remember this shortcut name for later to push files for instance
+
+#### already attached?
 
 to know if your project is already attached to a remote git server you can type 
 
@@ -99,7 +103,15 @@ to know if your project is already attached to a remote git server you can type
 $ git remote -v 
 ```
 
-ps: origin is just a shortcut name for the remote url you use. You could do `git remote add github https://...` if you want. But remember this shortcut name for later to push files for instance
+You could be attached to multiple remote server
+
+```
+$ git remote -v
+github	https://mesopelagique@github.com/4d-for-ios/4D-Mobile-App-Server.git (fetch)
+github	https://mesopelagique@github.com/4d-for-ios/4D-Mobile-App-Server.git (push)
+gitlab	https://gitlab.4d.fr/qmobile/4d-mobile-app-server.git (fetch)
+gitlab	https://gitlab.4d.fr/qmobile/4d-mobile-app-server.git (push)
+```
 
 ### Using sourcetree
 
