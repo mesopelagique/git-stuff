@@ -116,69 +116,10 @@ when commiting you can also check the box : "push change immediatly to", and mak
 
 ## Have a good readme!
 
-As you must know readme could be written using markdown.
+It is very important to have a good readme. It is your landing page for your project.
+You will find on following link good pratices of writing such a file - with a few examples, and a ready to use template.
 
-You can be inspired from this template or any other project readme
-https://gist.github.com/mesopelagique/4f9ca84088fbfcf7903ffb494e784a36
-
-You must provide information about your project.
-- how to use it (Getting Started, Usage)
-- how to install/integrate/deploy it
-
-You could add
-- information about license, acknowledgments, authors
-- how to contribute to your project (a link to a file CONTRIBUTING.md )
-
-### Link to others documentations files
-
-Maybe you create documentation for each public methods or class in Documentation folder
-
-To be able to reach it easily, provide links in your README to some of them using markdown link
-
-```markdown
-[MyMethod](Documentation/Methods/MyMethod.md)
-[MyClass](Documentation/Classes/MyClass.md)
-```
-
-### Badges
-
-If look into the [provided template](https://gist.github.com/mesopelagique/4f9ca84088fbfcf7903ffb494e784a36) you could see under first header some "badges" ie. some images to show some summary information about your project
-
-[![language-top][code-top]][code-url]
-
-Github, Gitlab, Travis, etc.. provide some badge about Continous Integration (build, test, etc...) but a lot of badges come from https://shields.io/ website
-
-### show top language
-
-For instance to show top language in your project you could show this image
-
-https://img.shields.io/github/languages/top/YourName/YourProject.svg
-
-using markdown
-```markdown
-![language-top](https://img.shields.io/github/languages/top/YourName/YourProject.svg)
-```
-
-### Reference links
-
-It allow to create variables in markdown for images & links
-
-[https://www.markdownguide.org/basic-syntax/#reference-style-links](https://www.markdownguide.org/basic-syntax/#reference-style-links)
-
-To display top language you could do like that
-
-```markdown
-[![language-top][code-top]][code-url]
-```
-
-and add at markdown bottom your links
-```markdown
-[code-top]: https://img.shields.io/github/languages/top/YourName/YourProject.svg
-[code-url]: https://developer.4d.com/
-```
-
-You can copy all badges [from templates](https://gist.githubusercontent.com/mesopelagique/4f9ca84088fbfcf7903ffb494e784a36/raw/5e426af569daff9249fce2dabd01e33654ac11a0/README-Template.md)
-and change the owner and project name
+[Good Readme](GoodReadme.md)
 
 ## Create a github pages
 
@@ -187,7 +128,3 @@ and change the owner and project name
 ## Release version
 
 [Release](Release.md)
-
-[code-top]: https://img.shields.io/github/languages/top/mesopelagique/CollectionUtils.svg
-[code-url]: https://developer.4d.com/
-
